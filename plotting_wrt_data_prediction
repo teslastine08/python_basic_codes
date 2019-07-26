@@ -1,0 +1,6 @@
+x=data[['YearsExperience']]
+y=data[['Salary']]        #y=output/target variable that contains salary
+import matplotlib.pyplot as plt
+plt.scatter(df['attribute defining x'], df['attribute defining y'])
+plt.xlabel('x')
+plt.ylabel('y')
