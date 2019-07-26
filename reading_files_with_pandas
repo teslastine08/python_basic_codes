@@ -1,0 +1,7 @@
+import pandas as pd
+df = pd.read_csv('telecom_churn.csv')
+df.head() #only head will be read
+df.tail() #only tail part will be read
+df.count() #count the total datas of individual 
+df['Churn'].value_counts() #churn-table name
+df[df['Churn']==True]['Total night minutes'].max() #max of a total attributes
