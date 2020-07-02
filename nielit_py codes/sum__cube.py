@@ -1,0 +1,8 @@
+x=int(input("enter 3 digit no:"))
+a=(x//100)
+b=((x%100)//10)
+c=((x%100)%10)
+y=((100*c)+(10*b)+a)
+z=((100*(c**3))+(10*(b**3))+(a**3))
+print(y)
+print("sum of the cube of its digits :",z)

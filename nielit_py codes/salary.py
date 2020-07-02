@@ -1,0 +1,5 @@
+x=int(input("enter basic salary:"))
+hra=(x*25/100)
+da=(x*15/100)
+y=(x+hra+da)
+print("gross salary:",y)
